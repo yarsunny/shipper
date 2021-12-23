@@ -1,8 +1,8 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import driverReducer from '../features/driver/driverSlice';
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    driver: driverReducer
   },
 });
